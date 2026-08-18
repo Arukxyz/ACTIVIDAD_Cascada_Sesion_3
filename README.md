@@ -1,19 +1,5 @@
-# AnalyticsPro - Layout Responsivo
 
-Maquetacion base de la interfaz para un panel de administracion (Dashboard), correspondiente a la Sidebar de navegacion y el Header superior. Disenado de forma limpia, interactiva y adaptable a dispositivos moviles.
-
----
-
-## Tecnologias Utilizadas
-
-* HTML5: Estructura semantica de la pagina.
-* CSS3: Estilos visuales, maquetacion con Flexbox y adaptabilidad con Media Queries.
-* JavaScript (ES6): Logica interactiva para el menu movil y los estados activos.
-* Font Awesome (v6): Iconografia integrada via CDN.
-
----
-
-## Descripcion del Proyecto
+## Actividad Realizada Sesión 3
 
 El objetivo principal fue recrear la estructura visual de la navegacion y cabecera de la plataforma sin incluir la seccion principal (main):
 
@@ -45,6 +31,6 @@ En lugar de vectores SVG incrustados en el codigo HTML, se integro la libreria F
 ## Estructura de Archivos
 
 ```text
-├── index.html     # Estructura semantica HTML
-├── styles.css     # Hojas de estilo y Media Queries
-└── script.js      # Logica para interactividad del menu
+├── /index.html     # Estructura semantica HTML
+├── /css/estilos.css     # Hojas de estilo y Media Queries
+└── /js/script.js      # Logica para interactividad del menu
