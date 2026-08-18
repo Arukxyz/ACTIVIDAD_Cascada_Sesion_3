@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnalyticsPro - Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <div>
+            <!-- Logo -->
+            <div class="brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-shapes"></i>
+                </div>
+                <span>AnalyticsPro</span>
+            </div>
+
+            <!-- Menú de Navegación -->
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Resumen</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>Usuarios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-folder"></i>
+                            <span>Proyectos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>Reportes</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>Configuración</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <span>Ayuda</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Usuario Sidebar -->
+        <div class="sidebar-user">
+            <div class="avatar-circle">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="user-info">
+                <span class="user-name">Aarón Anca</span>
+                <span class="user-role">Administrador</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- SECCIÓN DERECHA -->
+    <div class="content-wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-left">
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <h1 class="page-title" id="page-title">Resumen</h1>
+            </div>
+
+            <div class="header-right">
+                <!-- Buscador -->
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Buscar...">
+                </div>
+
+                <!-- Notificación -->
+                <button class="notification-btn">
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="badge"></span>
+                </button>
+
+                <!-- Avatar Perfil -->
+                <div class="header-avatar">
+                    AA
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Script externo -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
